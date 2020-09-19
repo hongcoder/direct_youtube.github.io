@@ -3,7 +3,7 @@ $(document).ready(function () {
   var API_KEY = 'AIzaSyA_i06R75sxZyNTBbxmoUtAQx-x7yoSKn0'
   $("#form").submit(function (e) {
     e.preventDefault()
-    alert("form is submitted")
+
 
     let search = $("#search").val()
     let video = '';
