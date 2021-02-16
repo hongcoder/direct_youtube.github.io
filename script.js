@@ -33,5 +33,5 @@ $(document).ready(function () {
 
 let title = document.querySelector('.title');
 title.addEventListener('click', function (){
-  window.location.href="../newIndex.html"
+  window.location.href="../index.html"
 })
