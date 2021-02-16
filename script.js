@@ -9,7 +9,7 @@ $(document).ready(function () {
     let video = '';
     // let videos = $('#video')
 
-    videoSearch(API_KEY, search, 15)
+    videoSearch(API_KEY, search, 12)
   })
 
   function videoSearch(key, search, maxResults) {
@@ -28,4 +28,10 @@ $(document).ready(function () {
         })
       })
   }
+})
+
+
+let title = document.querySelector('.title');
+title.addEventListener('click', function (){
+  window.location.href="../newIndex.html"
 })

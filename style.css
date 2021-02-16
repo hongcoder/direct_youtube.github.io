@@ -1,0 +1,44 @@
+html{
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  color: rgb(22, 99, 22);
+  font-size: 3em;
+}
+
+.form-group{
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  margin-right: 1em;
+  width: 50%;
+  height: 25px;
+}
+
+.searchBtn {
+  background-color: antiquewhite;
+  border: none;
+  height: 30px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+
+.row{
+
+}
